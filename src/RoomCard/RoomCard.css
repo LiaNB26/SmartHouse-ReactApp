@@ -1,0 +1,42 @@
+.single-card {
+    display: grid;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    text-shadow: rgb(0, 0, 0) 0 0 30px, rgb(255, 255, 255) 0 0 30px;
+  }
+  
+
+  .bedroom {
+    background-image: url('../img/bedroom.jpeg');
+  }
+
+  .bathroom {
+    background-image: url('../img/bathroom.jpg'); /*Photo by Sidekix Media on Unsplash*/
+  }
+
+  .kitchen {
+    background-image: url('../img/kitchen.jpg'); /* Photo by Mark McCammon from Pexels */
+  }
+
+  .living {
+    background-image: url('../img/living.jpg'); 
+  }
+
+  .card-room-font {
+    margin-bottom: 0;
+    padding: 0;
+    text-transform: capitalize;
+  }
+
+  abbr[title] {
+    border-bottom: none;
+    cursor: inherit;
+    text-decoration: none;
+  }

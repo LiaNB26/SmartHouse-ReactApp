@@ -1,0 +1,63 @@
+.room-list {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+
+  .home-page {
+      grid-row: 2;
+      grid-column: 2;
+  }
+
+  .linkClass {
+      text-decoration: none;
+  }
+
+.add-room-myButton {
+	box-shadow: 0px 0px 0px 2px #54a3f7;
+	background:linear-gradient(to bottom, #00bf53 5%, #0061a7 100%);
+	background-color:#00bf53;
+	border-radius:10px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size: 22px;
+	padding:12px 37px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+    font-family: 'Courgette', cursive;
+    outline-style: none;
+}
+.add-room-myButton:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #00bf53 100%);
+	background-color:#0061a7;
+}
+.add-room-myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.delete-button {
+    position: relative;
+    left: 100px;
+    top: 50px;
+    font-weight: bold;
+    background-color: none;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Kalam', cursive;
+    cursor: pointer;
+    outline-style: none;
+  }
+
+  .delete-all {
+      margin-left: 20px;
+  }
+ 

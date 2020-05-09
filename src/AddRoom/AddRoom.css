@@ -1,0 +1,79 @@
+.add-room {
+    width: 85vw;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-row: 2;
+    grid-column: 2;
+    font-family: 'Merienda One', cursive;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-shadow: 3px 4px 2px black;
+  }
+
+
+  .room-option {
+    display: grid;
+    grid-column: 2;
+    background-color: #0e6a8fa9;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+    
+  }
+  
+  /* .room-option:hover {
+    transform: scale(1.05);
+  } */
+
+  .input-box {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 300px;
+    line-height: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-family: 'Merienda One', cursive;
+  }
+
+  .color-box {
+    -webkit-appearance: none;
+    outline: none;
+    width: 150px;
+    height: 30px;
+    margin-left: 120px;
+    cursor: pointer;
+  }
+
+  .add-new-room-button {
+    border-radius: 6px;
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(29, 191, 202);
+    cursor: pointer;
+    margin-left: 20px;
+    font-family: 'Merienda One', cursive;
+    text-shadow: 2px 1px 1px #ffffff;
+  }
+
+  .option-title {
+      margin-bottom: 20px;
+      margin-top: 0;
+      padding-top: 0;
+  }
+  
+  .room-type-select {
+    border-radius: 4px;
+    outline-style: none;
+    font-family: 'Kalam', cursive;
+    text-transform: capitalize;
+    width: 320px;
+    margin-left: 45px;
+    cursor: pointer;
+  }
