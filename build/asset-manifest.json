@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SmartHouse-ReactApp/static/css/main.edfac55e.chunk.css",
-    "main.js": "/SmartHouse-ReactApp/static/js/main.477af082.chunk.js",
-    "main.js.map": "/SmartHouse-ReactApp/static/js/main.477af082.chunk.js.map",
+    "main.css": "/SmartHouse-ReactApp/static/css/main.b85e5049.chunk.css",
+    "main.js": "/SmartHouse-ReactApp/static/js/main.53c9a203.chunk.js",
+    "main.js.map": "/SmartHouse-ReactApp/static/js/main.53c9a203.chunk.js.map",
     "runtime-main.js": "/SmartHouse-ReactApp/static/js/runtime-main.dc6630e7.js",
     "runtime-main.js.map": "/SmartHouse-ReactApp/static/js/runtime-main.dc6630e7.js.map",
     "static/js/2.b6ce52fd.chunk.js": "/SmartHouse-ReactApp/static/js/2.b6ce52fd.chunk.js",
     "static/js/2.b6ce52fd.chunk.js.map": "/SmartHouse-ReactApp/static/js/2.b6ce52fd.chunk.js.map",
     "index.html": "/SmartHouse-ReactApp/index.html",
-    "precache-manifest.9f31641741407476e7def6e4a1a70402.js": "/SmartHouse-ReactApp/precache-manifest.9f31641741407476e7def6e4a1a70402.js",
+    "precache-manifest.bb0e485dd90c1b9cda0ee8cec0e4d760.js": "/SmartHouse-ReactApp/precache-manifest.bb0e485dd90c1b9cda0ee8cec0e4d760.js",
     "service-worker.js": "/SmartHouse-ReactApp/service-worker.js",
-    "static/css/main.edfac55e.chunk.css.map": "/SmartHouse-ReactApp/static/css/main.edfac55e.chunk.css.map",
+    "static/css/main.b85e5049.chunk.css.map": "/SmartHouse-ReactApp/static/css/main.b85e5049.chunk.css.map",
     "static/js/2.b6ce52fd.chunk.js.LICENSE.txt": "/SmartHouse-ReactApp/static/js/2.b6ce52fd.chunk.js.LICENSE.txt",
     "static/media/RoomCard.css": "/SmartHouse-ReactApp/static/media/living.14d8366e.jpg",
     "static/media/App.css": "/SmartHouse-ReactApp/static/media/house.240ceb6d.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.dc6630e7.js",
     "static/js/2.b6ce52fd.chunk.js",
-    "static/css/main.edfac55e.chunk.css",
-    "static/js/main.477af082.chunk.js"
+    "static/css/main.b85e5049.chunk.css",
+    "static/js/main.53c9a203.chunk.js"
   ]
 }
