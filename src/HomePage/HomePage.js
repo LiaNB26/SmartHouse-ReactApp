@@ -6,7 +6,7 @@ import './HomePage.css'
 
 export default function HomePage(props) {
 
-    const [listOfRooms, setListOfRooms] = useState(props.listOfRooms);
+    const [listOfRooms] = useState(props.listOfRooms);
 
     const handleRoomEnter = (roomId) => {
         props.updateCurrentRoom(roomId);
@@ -26,7 +26,13 @@ export default function HomePage(props) {
             <Link to="/addRoom">
                 <button className='add-room-myButton'>Add Room</button>
             </Link>
-            <button onClick={handleDeleteAll} className='add-room-myButton delete-all'>Delete All Rooms</button>
+            {
+                listOfRooms.length !== 0 ?
+                <button onClick={handleDeleteAll} className='add-room-myButton delete-all'>Delete All Rooms</button>
+                :
+                <button disabled className='disable-delete-all-btn delete-all'>Delete All Rooms</button>
+
+            }
 
             <div className='room-list'>
                 {

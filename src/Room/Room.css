@@ -53,7 +53,7 @@
     outline-style: none;
   }
 
-  .add-item-button, .delete-all-items {
+  .add-item-button, .delete-all-items, .disable-delete-all-items-btn {
     box-shadow:inset 0px 1px 0px 0px #b1b5ba;
     background:linear-gradient(to bottom, #81888c 5%, #000000 100%);
     background-color:#81888c;

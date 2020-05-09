@@ -5,11 +5,11 @@ export default function Room(props) {
 
     let maxItems = 12;
 
-    const [room, setRoom] = useState(props.room);
+    const [room] = useState(props.room);
     const [itemFlag, setItemFlag] = useState(false);
     const [itemSelected, setItemSelected] = useState('');
-    const [roomId, setRoomId] = useState(props.room.id);
-    const [roomItemsList, setRoomItemsList] = useState(props.listOfRoomItems);
+    const [roomId] = useState(props.room.id);
+    const [roomItemsList] = useState(props.listOfRoomItems);
 
     const handleShowItems = () => {
         if(room.items.length < maxItems) {
@@ -75,7 +75,12 @@ export default function Room(props) {
                 !itemFlag ?
                     <div>
                         <button className='add-item-button' onClick={handleShowItems}>Add Items To Room...</button><br /><br />
-                        <button className='delete-all-items' onClick={handleDeleteAll}>Delete All Room Items</button>
+                        {
+                            room.items.length !== 0 ?
+                            <button className='delete-all-items' onClick={handleDeleteAll}>Delete All Room Items</button>
+                            :
+                            <button disabled className='disable-delete-all-items-btn' >Delete All Room Items</button>
+                        }
                     </div>
                     :
                     <div>

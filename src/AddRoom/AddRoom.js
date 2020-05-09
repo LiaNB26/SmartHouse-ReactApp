@@ -12,10 +12,10 @@ export default function AddRoom(props) {
 
     const addNewRoom = () => {
 
-        if (roomType == '') {
+        if (roomType === '') {
             alert('Please select a room type!');
         }
-        else if (roomName == '') {
+        else if (roomName === '') {
             alert('Please enter a room name!');
         }
         else {

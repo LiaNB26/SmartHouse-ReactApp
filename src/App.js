@@ -90,7 +90,6 @@ function App() {
   }
 
   const deleteAllRoomItems = (roomId) => {
-    let items = currentRoom.items;
     currentRoom.items = [];
 
     let updatedList = listOfRooms.map(room =>
