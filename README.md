@@ -2,13 +2,12 @@ Smart House React App Project
 
 SVCollege Front End Course 2020
 
+https://lianb26.github.io/SmartHouse-ReactApp/
+
 
 1. Used HOOKS and function components to write this app.
-
 2. Used grid css layout
-
 3. Used React Router
-
 
 App Description:
 1. Can click to add different rooms (kitchen, living room, bathroom, bedroom).
